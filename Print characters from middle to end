@@ -1,0 +1,12 @@
+public class print_charecters_from_middle_position {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 = "Welcome";
+		int x = s1.length();
+		int mid = x/2;
+		System.out.println(org.charAt(mid));
+
+	}
+
+}
