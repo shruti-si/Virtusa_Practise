@@ -1,0 +1,14 @@
+public class hash_code_for_strings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 = "abcd";
+		String s2 = "efij";
+		int z1 = s1.hashCode();
+		int z2 = s2.hashCode();
+		System.out.println(z1);
+		System.out.println(z2);
+
+	}
+
+}
