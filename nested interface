@@ -1,0 +1,21 @@
+interface Sleep {
+    void sleep();
+}
+interface Play {
+    void play();
+}
+class Human implements Sleep, Play {
+    public void sleep() {
+        System.out.println("Sleeping");
+    }
+    public void play() {
+        System.out.println("Playing");
+    }
+}
+public class interface_prog {
+    public static void main(String args[]) {
+        Human obj = new Human();
+        obj.sleep();
+        obj.play();
+    }
+}
